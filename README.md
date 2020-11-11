@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/ScMl0846/Space%20game%20-%20web%20-%20app%20-%20DevOpsTest/_apis/build/status/saracusschrombh.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/ScMl0846/Space%20game%20-%20web%20-%20app%20-%20DevOpsTest/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 

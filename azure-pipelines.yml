@@ -18,11 +18,11 @@ steps:
 - task: UseDotNet@2
   displayName: 'Use .NET CORE SDK 3.1.300 (technical information)'
   inputs:
-  packagetType: sdk
-  version: 3.1.300
+    packageType: sdk
+    version: 3.1.300
 
 - task: Npm@1
-  displayName: "Run npm install"
+  displayName: 'Run npm install'
   inputs:
     verbose: false
 
@@ -30,7 +30,7 @@ steps:
   displayName: 'Compile Sass assets'
 
 - task: gulp@1
-  displayName: "Run gulp tasks (what is gulp?)"
+  displayName: 'Run gulp tasks (what is gulp?)'
 
 - script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build info'

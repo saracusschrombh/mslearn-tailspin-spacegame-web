@@ -16,8 +16,6 @@ pool:
   demands:
   - npm
 
-variables:
-  buildConfiguration: 'Release'
 
 steps:
 - task: UseDotNet@2
